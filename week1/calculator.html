@@ -1,1 +1,45 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        .title{margin-bottom: 10px; text-align:center; width: 225px; border: solid black 2px}
+        input[type="button"]{background-color:grey; border: solid black 2px; width:50px}
+        input[type="text"]{background-color:white; border: solid black 2px; width:150px}
+     </style>
+</head>
+<body>
+    <div class = title >Hesap Makinesi</div>
+    <form action="" name="calc">
+        <table border="1">
+            <tr>
+                <td colspan="3"><input type="text" id="dis"/></td>
+                <td><input type="button" value="c" onclick="calc.dis.value = ''"></td>
 
+            </tr>
+            <tr>
+                <td><input type="button" value="1" onclick="calc.dis.value += '1'"></td>
+                <td><input type="button" value="2" onclick="calc.dis.value += '2'"></td>
+                <td><input type="button" value="3" onclick="calc.dis.value += '3'"></td>
+                <td><input type="button" value="/" onclick="calc.dis.value += '/'"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="4" onclick="calc.dis.value += '4'"></td>
+                <td><input type="button" value="5" onclick="calc.dis.value += '5'"></td>
+                <td><input type="button" value="6" onclick="calc.dis.value += '6'"></td>
+                <td><input type="button" value="-" onclick="calc.dis.value += '-'"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="7" onclick="calc.dis.value += '7'"></td>
+                <td><input type="button" value="8" onclick="calc.dis.value += '8'"></td>
+                <td><input type="button" value="9" onclick="calc.dis.value += '9'"></td>
+                <td><input type="button" value="+" onclick="calc.dis.value += '+'"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="." onclick="calc.dis.value += '.'"></td>
+                <td><input type="button" value="0" onclick="calc.dis.value += '0'"></td>
+                <td><input type="button" value="=" onclick="calc.dis.value = eval(calc.dis.value)"></td>
+                <td><input type="button" value="*" onclick="calc.dis.value += '*'"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
