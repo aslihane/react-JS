@@ -1,1 +1,44 @@
+body{
+    background-color: lightblue;
+}
+
+table{
+    width: 150px;
+    height: 150px;
+  }
+
+#main{
+    background-color: yellow;
+    margin: auto;
+    border-left: 5px solid gray;
+    border-top: 5px solid gray;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+}
+
+tr, td{
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 0px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.ninetds{
+    border: none;
+    padding: 0;
+}
+
+.squares{
+    border: 1px solid;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
 
