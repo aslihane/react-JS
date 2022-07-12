@@ -1,2 +1,2 @@
 # react.js
-Lc Waikiki React.Js Yazılımcı Yetiştirme Programı
+Üretken Akademi & Lc Waikiki React JS Yazılımcı Yetiştirme Programı
